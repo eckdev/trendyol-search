@@ -3,7 +3,6 @@
     "description": "Trendyol'da Sağ Tıkla Ara",
     "version": "1.1.7",
     "permissions": [ "contextMenus", "tabs" ],
-    "minimum_chrome_version": "9",
     "manifest_version": 3,
     "background": {
       "service_worker": "background.js"

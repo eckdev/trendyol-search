@@ -2,9 +2,7 @@
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId === "menu-search") {
-    // Seçili metni al
     const selectedText = info.selectionText;
-    console.log(selectedText)
     chrome.tabs.create({
       url: "https://www.trendyol.com/sr?q=" + selectedText,
     });
